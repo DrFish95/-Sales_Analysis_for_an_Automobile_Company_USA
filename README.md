@@ -118,3 +118,6 @@ plt.xlabel("States")
 plt.show()
 
 ```
+
+
+![project_1 picture](https://github.com/user-attachments/assets/3b4e2801-456d-4c4f-9be2-30fa122c31bf)
