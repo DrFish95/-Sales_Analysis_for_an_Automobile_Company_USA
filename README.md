@@ -93,3 +93,28 @@ total_profit_by_states.sort_values("Profit", ascending = False)
 
 
 ```
+## RESULTS
+```python
+ #Top_Most-Profitable 5 States for a Bike business in the United State ?
+top_5_most_profitable_state_USA_bike =total_profit_by_states.sort_values("Profit", ascending = False).head()
+top_5_most_profitable_state_USA_bike
+
+```
+## DATA VISUALIZATION
+```python
+# visualizing the result
+
+top_5_most_profitable_state_USA_bike.plot(kind = "bar")
+
+# adding a little and label to the plot 
+
+plt.title("The top 5 most profitable states for Bike product in the Us")
+
+plt.ylabel("Total profit in Million Dolars")
+plt.xlabel("States")
+
+# showing the plot
+
+plt.show()
+
+```
